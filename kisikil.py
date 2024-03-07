@@ -1,7 +1,7 @@
-x = float(input('Digite a média de um aluno'))
+x = float(input('Digite a média de um aluno: '))
 if x > 7.0:
-  print(Aprovado)
+  print('Aprovado')
 elif x < 0.0 and x > 10.0:
-  print(Erro, tente novamente)
+  print('Erro, tente novamente')
 else:
-  print(Reprovado)
+  print('Reprovado')
