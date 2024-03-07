@@ -1,7 +1,3 @@
-x = float(input('Digite a média de um aluno: '))
-if x > 7.0:
-  print('Aprovado')
-elif x < 0.0 and x > 10.0:
-  print('Erro, tente novamente')
-else:
-  print('Reprovado')
+x = float(input('Digite o seu salário base: '))
+y = float(x - x*0.07 + x*0.05)
+print('seu salário é: ', y)
